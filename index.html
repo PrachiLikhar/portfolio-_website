@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website HTML CSS & JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        
+        <div class="logo">
+         <h1>Prachi</h1>
+        </div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Prachi Likhar</div>
+          <div class="text-three">Full stack developer</div>
+          <div class="text-four">From India</div>
+        </div>
+        <div class="button">
+          <button>Hire Me</button>
+        </div>
+      
+         <!-- <div class="menu-btn">
+          <img src="Full-Stack-Developers.jpg" alt="my image"></img>
+        </div>   -->
+      </div>
+     
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="prachi.png" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Coding Is My Passion</div>
+            <p> Hello! I'm Prachi Likhar, a passionate and dedicated B.Tech student in my third year, specializing in full-stack development. I have always been captivated by the world of technology, and I'm on a mission to leverage my skills and knowledge to create innovative solutions.</p>
+            <div class="button">
+              <button>Download CV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflects Our Knowledge</div>
+            <p>As a passionate developer, I have honed my skills in full-stack development, with a focus on HTML, CSS, Java, and JavaScript. I am proficient in creating well-structured and semantically meaningful web content using HTML. I take pride in my strong expertise in CSS, allowing me to craft responsive and visually appealing web designs. Additionally, I am well-versed in JavaScript, particularly ES6 and above, to create interactive and dynamic web applications. My knowledge extends to Java, and I have experience in application development. These skills, coupled with my dedication to staying up-to-date with the latest industry trends, enable me to deliver engaging and high-quality web solutions for a variety of projects.</p>
+            <div class="experience">
+              <div class="num"></div>
+              <div class="exp">
+                <br />
+
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="per">60%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavScript</div>
+              <div class="per">50%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Java</div>
+              <div class="per">60%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">Have Any Project?</div>
+          <p>Drop it your Query </p>
+          <form action="submit_contact.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="Prachi Likhar" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="prachilikhar81@gmail.com" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>    
+          <div class="button">
+            <button>Let's Chat</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">Prachi Likhar</a>  2023 All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
